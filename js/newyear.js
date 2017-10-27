@@ -127,7 +127,7 @@ var trigger_timeout = null;
 
 $(document).ready(function() {
 	var currentDate = new Date();
-	var futureDate  = new Date(currentDate.getFullYear(), 9, 27);
+	var futureDate  = new Date(currentDate.getFullYear(), 11, 31);
 	var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
 	$('.countdown_mp3').trigger('load');
